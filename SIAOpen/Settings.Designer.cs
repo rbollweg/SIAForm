@@ -37,6 +37,7 @@
             // 
             // saveButton
             // 
+            this.saveButton.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.saveButton.Location = new System.Drawing.Point(185, 136);
             this.saveButton.Name = "saveButton";
             this.saveButton.Size = new System.Drawing.Size(105, 33);
@@ -47,6 +48,7 @@
             // 
             // serverNameLabel
             // 
+            this.serverNameLabel.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.serverNameLabel.AutoSize = true;
             this.serverNameLabel.Location = new System.Drawing.Point(31, 81);
             this.serverNameLabel.Name = "serverNameLabel";
@@ -56,6 +58,7 @@
             // 
             // localPathLabel
             // 
+            this.localPathLabel.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.localPathLabel.AutoSize = true;
             this.localPathLabel.Location = new System.Drawing.Point(31, 113);
             this.localPathLabel.Name = "localPathLabel";
@@ -66,6 +69,7 @@
             // 
             // serverLocationTextArea
             // 
+            this.serverLocationTextArea.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.serverLocationTextArea.Location = new System.Drawing.Point(122, 78);
             this.serverLocationTextArea.Name = "serverLocationTextArea";
             this.serverLocationTextArea.Size = new System.Drawing.Size(295, 20);
@@ -73,6 +77,7 @@
             // 
             // localPathTextArea
             // 
+            this.localPathTextArea.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.localPathTextArea.Location = new System.Drawing.Point(94, 110);
             this.localPathTextArea.Name = "localPathTextArea";
             this.localPathTextArea.Size = new System.Drawing.Size(323, 20);

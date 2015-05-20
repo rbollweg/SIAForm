@@ -36,9 +36,10 @@
             // 
             // label3
             // 
+            this.label3.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Trebuchet MS", 19.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(809, 308);
+            this.label3.Location = new System.Drawing.Point(91, 202);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(397, 33);
             this.label3.TabIndex = 7;
@@ -46,8 +47,9 @@
             // 
             // pictureBox1
             // 
+            this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(815, 175);
+            this.pictureBox1.Location = new System.Drawing.Point(97, 69);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(360, 130);
             this.pictureBox1.TabIndex = 6;
@@ -57,7 +59,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1480, 647);
+            this.ClientSize = new System.Drawing.Size(529, 353);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.pictureBox1);
             this.Name = "submissionForm";
